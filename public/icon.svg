@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d9488" />
+      <stop offset="50%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0f766e" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <!-- Background Rounded Rect -->
+  <rect width="512" height="512" rx="112" fill="url(#brandGrad)" />
+  
+  <!-- Dumbbell / Heart / Mobility Symbol -->
+  <g transform="translate(64, 64) scale(0.75)" filter="url(#shadow)">
+    <!-- Dumbbell Bar -->
+    <rect x="140" y="240" width="232" height="32" rx="16" fill="#ffffff" />
+    <!-- Center Grip Textured -->
+    <rect x="220" y="234" width="72" height="44" rx="8" fill="#e2e8f0" />
+    <!-- Left Plates -->
+    <rect x="96" y="160" width="44" height="192" rx="18" fill="#ffffff" />
+    <rect x="56" y="188" width="40" height="136" rx="14" fill="#ccfbf1" />
+    <rect x="28" y="216" width="28" height="80" rx="10" fill="#99f6e4" />
+    <!-- Right Plates -->
+    <rect x="372" y="160" width="44" height="192" rx="18" fill="#ffffff" />
+    <rect x="416" y="188" width="40" height="136" rx="14" fill="#ccfbf1" />
+    <rect x="456" y="216" width="28" height="80" rx="10" fill="#99f6e4" />
+    
+    <!-- Heart / Shield Overplay in the center representing Safety & Family -->
+    <path d="M 256 110 C 230 70, 160 80, 160 140 C 160 200, 256 250, 256 250 C 256 250, 352 200, 352 140 C 352 80, 282 70, 256 110 Z" fill="#f43f5e" />
+  </g>
+</svg>
